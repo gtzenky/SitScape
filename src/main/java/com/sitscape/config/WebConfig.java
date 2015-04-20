@@ -17,6 +17,7 @@
 package com.sitscape.config;
 
 import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.servlet.DispatcherServlet;
 import org.springframework.web.servlet.config.annotation.DefaultServletHandlerConfigurer;
@@ -27,6 +28,7 @@ import org.springframework.web.servlet.view.InternalResourceViewResolver;
 
 @EnableWebMvc
 @Configuration
+@ComponentScan(basePackages={"com.sitscape"})
 public class WebConfig extends WebMvcConfigurerAdapter {
 
 	@Override

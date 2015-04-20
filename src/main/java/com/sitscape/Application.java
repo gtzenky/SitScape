@@ -1,13 +1,17 @@
 package com.sitscape;
 
 import org.springframework.boot.SpringApplication;
-import org.springframework.boot.test.SpringApplicationConfiguration;
+import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
+import org.springframework.context.annotation.ComponentScan;
 
-@SpringApplicationConfiguration
+@EnableAutoConfiguration
+@ComponentScan
 public class Application {
 
     public static void main(String[] args) throws Exception {
-        SpringApplication.run(Application.class, args);
+        SpringApplication app = new SpringApplication(Application.class);
+        app.setShowBanner(false);
+        app.run(args);
     }
 
 }

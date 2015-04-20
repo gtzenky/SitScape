@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<configuration>
+  <appender name="consoleAppender" class="ch.qos.logback.core.ConsoleAppender">
+    <encoder>
+      <pattern>%d{ISO8601} %5p [%t] %c{1}:%L - %m%n</pattern>
+    </encoder>
+  </appender>
+  
+
+  <logger name="org.springframework.web" level="warn" />
+  <logger name="com.sitscape" level="info" />
+
+  
+  <root level="error">
+    <appender-ref ref="consoleAppender" />
+  </root>
+</configuration>

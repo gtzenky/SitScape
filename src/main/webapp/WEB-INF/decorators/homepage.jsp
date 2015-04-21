@@ -5,7 +5,6 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <link type="text/css" rel="stylesheet" href="${contentBaseCssUrl}/header.css" />
 </head>
 <body>
 

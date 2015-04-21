@@ -4,4 +4,5 @@
 
 <c:set var="contentBaseUrl" value="${pageContext.request.contextPath}" />
 
+<c:set var="contentBaseAssetUrl" value="${contentBaseUrl}/assets" />
 <c:set var="contentBaseCssUrl" value="${contentBaseUrl}/assets/css" />

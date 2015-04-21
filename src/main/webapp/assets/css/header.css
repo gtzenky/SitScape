@@ -4,3 +4,8 @@ header {
 	background: #297acc;
 	padding: 0 35px;
 }
+
+header .logo {
+	float: left;
+	margin-top: 17px;
+}

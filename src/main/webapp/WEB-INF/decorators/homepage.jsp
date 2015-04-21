@@ -5,6 +5,9 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <script src="${contentBaseUrl}/assets/scripts/jquery-2.1.3.min.js"></script>
+  <link href="${contentBaseUrl}/assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <script src="${contentBaseUrl}/assets/bootstrap/js/bootstrap.min.js"></script>
 </head>
 <body>
 
@@ -12,7 +15,5 @@
   <decorator:body />
   <jsp:include page="homepage-footer.jsp" />
 
-  <script src="${contentBaseUrl}/assets/scripts/jquery-2.1.3.min.js"></script>
-  <script src="${contentBaseUrl}/assets/bootstrap/js/bootstrap.min.js"></script>
 </body>
 </html>

@@ -43,7 +43,7 @@ public class WebConfig extends WebMvcConfigurerAdapter {
 		viewResolver.setSuffix(".html");
 		return viewResolver;
 	}
-
+	
 	@Bean
 	// Only used when running in embedded servlet
 	public DispatcherServlet dispatcherServlet() {

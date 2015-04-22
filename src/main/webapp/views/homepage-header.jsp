@@ -12,13 +12,13 @@
       </div>
       <div>
         <ul class="nav navbar-nav">
-          <li><a href="#/products">Products</a></li>
-          <li><a href="#/solutions">Solutions</a></li>
-          <li><a href="#/customers">Customers</a></li>
-          <li><a href="#/news">News</a></li>
-          <li><a href="#/about">About</a></li>
-          <li><a href="#/contact">Contact</a></li>
-          <li><a href="#/login">Login</a></li>
+          <li><a href="${contentBaseUrl}/homepage/#/products">Products</a></li>
+          <li><a href="${contentBaseUrl}/homepage/#/solutions">Solutions</a></li>
+          <li><a href="${contentBaseUrl}/homepage/#/#/customers">Customers</a></li>
+          <li><a href="${contentBaseUrl}/homepage/#/news">News</a></li>
+          <li><a href="${contentBaseUrl}/homepage/#/about">About</a></li>
+          <li><a href="${contentBaseUrl}/homepage/#/contact">Contact</a></li>
+          <li><a href="${contentBaseUrl}/homepage/#/login">Login</a></li>
         </ul>
       </div>
     </div>

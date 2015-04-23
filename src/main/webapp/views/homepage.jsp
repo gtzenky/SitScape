@@ -1,6 +1,6 @@
 <%@ taglib prefix="spring" uri="http://www.springframework.org/tags"%>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
-<%@ include file="/WEB-INF/decorators/include.jsp"%>
+<%@ include file="/views/decorators/include.jsp"%>
 <!DOCTYPE html>
 <html ng-app="mainApp">
 <head>
@@ -15,8 +15,6 @@
 <script src="${contentBaseUrl}/assets/scripts/angular-route.js"></script>
 </head>
 <body>
-
-
   <jsp:include page="decorators/homepage-header.jsp"/>
   <div ng-view></div>
   <jsp:include page="decorators/homepage-footer.jsp"/>

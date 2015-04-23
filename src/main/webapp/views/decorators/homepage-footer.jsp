@@ -1,4 +1,4 @@
-<%@ include file="/WEB-INF/decorators/include.jsp"%>
+<%@ include file="/views/decorators/include.jsp"%>
 
 <html>
 <link type="text/css" rel="stylesheet" href="${contentBaseCssUrl}/footer.css" />

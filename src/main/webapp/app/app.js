@@ -5,7 +5,5 @@ app.config([ '$routeProvider', function($routeProvider) {
     templateUrl : "products",
   }).when('/about', {
     templateUrl : "about",
-  }).otherwise({
-    redirectTo : '/'
   });
 } ]);

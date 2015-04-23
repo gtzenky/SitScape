@@ -1,0 +1,23 @@
+.menu-bar {
+	background-color: #f78f1e;
+	border: 0;
+  border-radius: 0;
+}
+
+.menu-header {
+	font-size: 24px;
+	color: #FFFFFF!important;
+	letter-spacing: 1px;
+	margin-top: 14px;
+}
+
+.menu-text {
+	font-size: 24px;
+  color: #FFFFFF!important;
+  letter-spacing: 1px;
+}
+
+.text-container {
+  width: 70%;
+  letter-spacing: .5px;
+}

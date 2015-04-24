@@ -2,8 +2,10 @@
 <%@ taglib prefix="spring" uri="http://www.springframework.org/tags"%>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
 
+
 <c:set var="contentBaseUrl" value="${pageContext.request.contextPath}" />
 
 <c:set var="contentBaseAssetUrl" value="${contentBaseUrl}/assets" />
 <c:set var="contentBaseCssUrl" value="${contentBaseUrl}/assets/css" />
 <c:set var="contentBaseImagesUrl" value="${contentBaseUrl}/assets/images" />
+<c:set var="contentBaseDecorators" value="${contentBaseUrl}/views/decorators" />

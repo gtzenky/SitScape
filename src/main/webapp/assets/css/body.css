@@ -28,7 +28,7 @@
   background-repeat: no-repeat;
 }
 
-.no-border td, .table th {
+.no-border td, .no-border th {
     border: none !important;
 }
 
@@ -49,3 +49,11 @@
   float: right;
 }
 
+.nopadding {
+   padding: 0 !important;
+   margin: 0 !important;
+}
+
+.solution-feature td {
+  height: 130px;
+}

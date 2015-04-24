@@ -14,10 +14,18 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import com.sitscape.model.Component;
 
 @Controller
-public class ProductsController {
-  private final Log logger = LogFactory.getLog(ProductsController.class);
+@RequestMapping("/homepage")
+public class HomeController {
+  private final Log logger = LogFactory.getLog(HomeController.class);
 
-  @RequestMapping("/homepage/products")
+  @RequestMapping("")
+  public String home(HttpServletResponse response) {
+    logger.info("homepage");
+    response.addHeader("content-type", "text/html;charset=utf-8");
+    return "homepage";
+  }
+  
+  @RequestMapping("/products")
   public String product(Model model, HttpServletResponse response) {
     logger.info("product");
     List<Component> productsComponents = new ArrayList<>();
@@ -43,17 +51,17 @@ public class ProductsController {
     return "partial/products";
   }
 
-  @RequestMapping("/homepage/about")
-  public String main1() throws InterruptedException {
+  @RequestMapping("/about")
+  public String about() throws InterruptedException {
     logger.info("about");
     return "partial/about";
   }
-
-  @RequestMapping("/homepage")
-  public String home(HttpServletResponse response) {
-    logger.info("homepage");
-    response.addHeader("content-type", "text/html;charset=utf-8");
-    return "homepage";
+  
+  @RequestMapping("/solutions")
+  public String solutions() {
+    logger.info("solution");
+    return "partial/solutions";
   }
+
 
 }

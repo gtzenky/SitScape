@@ -1,6 +1,7 @@
 <%@ taglib prefix="spring" uri="http://www.springframework.org/tags"%>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
 <%@ include file="/views/decorators/include.jsp"%>
+<%@ taglib tagdir="/WEB-INF/tags" prefix="tag" %>
 
 <c:set var="productImagesUrl" value="${contentBaseImagesUrl}/products" />
 
@@ -12,11 +13,7 @@
   <div class="container-fluid col-md-offset-1" style="height: 58px;">
     <div class="navbar-header">
       <p class="menu-header">Products</p>
-  </div>
-    <div>
-      <ul class="nav navbar-nav">
-      </ul>
-  </div>
+    </div>
   </div>
 </nav>
 
@@ -148,16 +145,11 @@
         </tr>
       </tbody>
     </table>
-</div>
+  </div>
 </div>
 
 <!-- contact button -->
-<div class="container ">
-  <div class="col-md-offset-4 col-md-4 text-center" style="padding: 30px 0px 100px 0px">
-    <h2 style="color: #777;"> Let Us Help You.</h1>
-    <a class="btn btn-primary btn-lg btn-block" href="#/contact" role="button">CONTACT SALES</a>
-  </div>
-</div>
+<tag:contact-container/>
 
 
 

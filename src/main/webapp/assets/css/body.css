@@ -1,5 +1,5 @@
 .menu-bar {
-	background-color: #f78f1e;
+	background-color: #f0ad4e;
 	border: 0;
   border-radius: 0;
 }
@@ -27,3 +27,25 @@
   background-position: center center;
   background-repeat: no-repeat;
 }
+
+.no-border td, .table th {
+    border: none !important;
+}
+
+.feature-content h2 {
+  line-height: .5;
+  padding-bottom: 7px;
+}
+
+.feature-content h2 small {
+  color: #f0ad4e!important;
+}
+
+.feature-content p {
+  color: #777;
+}
+
+.feature-icon img {
+  float: right;
+}
+

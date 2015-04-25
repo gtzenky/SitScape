@@ -18,6 +18,7 @@ import com.sitscape.model.Component;
 public class HomeController {
   private final Log logger = LogFactory.getLog(HomeController.class);
 
+  
   @RequestMapping("")
   public String home(HttpServletResponse response) {
     logger.info("homepage");

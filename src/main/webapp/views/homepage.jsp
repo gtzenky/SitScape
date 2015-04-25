@@ -13,6 +13,7 @@
 <script src="${contentBaseUrl}/assets/scripts/angular.js"></script>
 <script src="${contentBaseUrl}/assets/scripts/angular-resource.js"></script>
 <script src="${contentBaseUrl}/assets/scripts/angular-route.js"></script>
+<script src="${contentBaseUrl}/assets/scripts/ui-bootstrap-tpls-0.12.1.min.js"></script>
 </head>
 <body>
   <jsp:include page="decorators/homepage-header.jsp"/>

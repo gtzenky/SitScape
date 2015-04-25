@@ -18,11 +18,11 @@
 </nav>
 
 <!-- content section -->
-<!-- <div ng-controller="newsController">
+<div ng-controller="NewsController">
     <div ng-repeat="item in newsItems" class="container text-container">
-      <h1 style="color: #777;">item.title</h1>
+      <h1 style="color: #777;">{{item.title}}</h1>
       <h3>
-        <small>item.content</small>
+        <small>{{item.content}}</small>
       </h3>
     </div>
-</div> -->
+</div>

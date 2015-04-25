@@ -18,7 +18,16 @@
   <jsp:include page="decorators/homepage-header.jsp"/>
   <div ng-view></div>
   <jsp:include page="decorators/homepage-footer.jsp"/>
+  
+  
   <script src="${contentBaseUrl}/app/app.js"></script>
+  
+  <!-- service -->
+  <script src="${contentBaseUrl}/app/service/NewsService.js"></script>
+  
+  <!-- controller -->
+  <script src="${contentBaseUrl}/app/controller/NewsController.js"></script>
+  
   </footer>
 </body>
 </html>

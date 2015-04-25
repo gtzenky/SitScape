@@ -1,0 +1,3 @@
+04-25 18:37:23 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "VERSION[*] "; expected "VALUES, {"; SQL statement:
+version [42001-186]

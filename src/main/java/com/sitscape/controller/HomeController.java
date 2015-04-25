@@ -63,6 +63,12 @@ public class HomeController {
     logger.info("solution");
     return "partial/solutions";
   }
+  
+  @RequestMapping("/news")
+  public String news() {
+    logger.info("news");
+    return "partial/news";
+  }
 
 
 }

@@ -27,25 +27,25 @@ import org.springframework.web.servlet.view.InternalResourceViewResolver;
 
 @EnableWebMvc
 @Configuration
-@ComponentScan(basePackages={"com.sitscape"})
+@ComponentScan(basePackages = { "com.sitscape" })
 public class WebConfig extends WebMvcConfigurerAdapter {
 
-	@Bean
-	public InternalResourceViewResolver viewResolver() {
-		InternalResourceViewResolver viewResolver = new InternalResourceViewResolver();
-		viewResolver.setPrefix("/views/");
-		viewResolver.setSuffix(".jsp");
-		return viewResolver;
-	}
-	
-	@Bean
-	// Only used when running in embedded servlet
-	public DispatcherServlet dispatcherServlet() {
-		return new DispatcherServlet();
-	}
+  @Bean
+  public InternalResourceViewResolver viewResolver() {
+    InternalResourceViewResolver viewResolver = new InternalResourceViewResolver();
+    viewResolver.setPrefix("/views/");
+    viewResolver.setSuffix(".jsp");
+    return viewResolver;
+  }
 
-	@Override
-	public void configureDefaultServletHandling(DefaultServletHandlerConfigurer configurer) {
-		configurer.enable();
-	}
+  @Bean
+  // Only used when running in embedded servlet
+  public DispatcherServlet dispatcherServlet() {
+    return new DispatcherServlet();
+  }
+
+  @Override
+  public void configureDefaultServletHandling(DefaultServletHandlerConfigurer configurer) {
+    configurer.enable();
+  }
 }

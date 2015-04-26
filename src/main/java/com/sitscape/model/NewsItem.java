@@ -5,7 +5,7 @@ import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 
-@Entity(name = "NEWS_ITEM")
+@Entity(name = "NEWS_ITEMS")
 public class NewsItem {
 
   @Id
